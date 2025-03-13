@@ -4,9 +4,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Exercise1 Project.");
-        int number = 5;
-        int input = int.Parse(Console.ReadLine());
-        Console.WriteLine($"Press any key {}.");
+        Console.Write("what is your first name?.");
+        string firstName = Console.ReadLine();
+
+        Console.Write("what is your last name?.");
+        string lastName = Console.ReadLine();
+
+        Console.WriteLine($"Your name is {lastName}, {firstName} {lastName}");
+       
+        
     }
 }
