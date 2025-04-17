@@ -2,6 +2,17 @@ using System;
 using System.Collections.Generic;
 using System.Threading;
 
+// Exceeding Requirements
+// To exceed requirements, I've implemented the following enhancements:
+
+// 1. Activity Logging: The program now tracks and displays how many times each activity has been performed during the session.
+
+// 2. Unique Prompt Selection: For the reflection and listing activities, prompts are selected randomly but won't repeat until all prompts have been used at least once in the session.
+
+// 3. Enhanced Breathing Animation: The breathing activity now includes a more realistic animation that simulates the gradual inhale/exhale process.
+
+// 4. Session Statistics: At the end of each session, the program displays statistics about activities completed.
+
 class Program
 {
     static void Main(string[] args)
